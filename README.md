@@ -54,7 +54,7 @@ Nesta etapa, é possível conectar um repositório GitHub ou Azure DevOps.
 ### :globe_with_meridians: Configurações de Rede
 
 Optei por configurar como **Público**.  
--> Em redes privadas, a comunicação permanece na rede da Microsoft, aumentando segurança e reduzindo latência.
+> Em redes privadas, a comunicação permanece na rede da Microsoft, aumentando segurança e reduzindo latência.
 
 ---
 ![image](https://github.com/user-attachments/assets/73b160b0-1cb3-4b4c-9130-a54c94014fdf)
@@ -72,7 +72,7 @@ O Azure Data Factory oferece criptografia em trânsito e em repouso, com integra
 ### :label: Marcas (Tags)
 
 As tags permitem classificar recursos e consolidar faturamento.  
--> Recurso importante para organização em ambientes corporativos.
+> Recurso importante para organização em ambientes corporativos.
 
 ---
 ![image](https://github.com/user-attachments/assets/d8b4b30f-9aa3-4ee6-99e8-21a99e29abf1)
