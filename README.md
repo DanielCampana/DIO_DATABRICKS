@@ -114,7 +114,7 @@ https://github.com/user-attachments/assets/a23e58db-396f-482b-9c9c-bc848dbe9fa6
 <br>
 <br> 
 
-## _Insides do Copilot_
+## _Insides_
 
 <br>
 
