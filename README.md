@@ -3,7 +3,7 @@
 
 ---
 
-##  Desafio de Projeto: Criando um Monitoramento de Custos no Azure Data Factory
+##  Desafio de Projeto: Criando e Administrando recursos no Azure Data Factory
 
 ### :brain: Aprendizagem de recursos e projetos no Microsoft Azure!
 
