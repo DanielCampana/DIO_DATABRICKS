@@ -1,156 +1,125 @@
-# DIO_DATABRICKS
- Bootcamp (DIO) - Microsoft AI for Tech - Azure Databricks
+# :rocket: DIO_DATABRICKS  
+## Bootcamp DIO – Microsoft AI for Tech – Azure Databricks  
 
-_Desafio de Projeto: Criando Um Monitoramento de Custos no Data Factory_
+---
 
-## Aprendizagem de recursos e projetos Microsoft Azure! 
-#
-#
-#
+##  Desafio de Projeto: Criando um Monitoramento de Custos no Azure Data Factory
 
-Após realizada a inscrição da Assinatura no Portal Azure, irei criar uma unidade Data Factory, um serviço ETL baseado em nuvem oferecendo melhor integração entre os dados! 
+### :brain: Aprendizagem de recursos e projetos no Microsoft Azure!
 
-![image](https://github.com/user-attachments/assets/2aa46701-c876-4fba-ac12-8c91bece9559)
-<br>
-<br> 
-<br>
+Após realizar a inscrição da assinatura no portal Azure, irei criar uma unidade **Data Factory**, um serviço ETL baseado em nuvem que oferece melhor integração entre os dados.
 
-1. Nesta parte Visualizamos a tela de criação do Projeto! 
-<br> -> Para o Preenchimento da coluna "Assinatura" será colocada a Assinatura correspondente do indivído a partir da Inscrição realizada, no meu caso "Azure Subscription 1". 
-<br>
+---
+
+## Etapas do Projeto
+
+
+Na interface inicial, visualizamos a tela de criação do projeto.  
+-> Para o preenchimento da coluna **"Assinatura"**, deve-se selecionar a assinatura correspondente do indivíduo. No meu caso: `Azure Subscription 1`.
+
+---
 
 ![image](https://github.com/user-attachments/assets/1195cff4-0e37-41f6-9a0a-4306522634a8)
 
-<br>
-<br>
+---
 
-2. Na sequência, realizamos a criação do Grupo de Recursos, optei por denomina-lo como DIO_DATABRICKS, com o objetivo de facilitar a identificação e manter a estrutura do meu projeto mais organizada e padronizada. 
-<br>
+### Grupo de Recursos
 
+Criei o Grupo de Recursos com o nome `DIO_DATABRICKS`, com o objetivo de facilitar a identificação e manter a estrutura do projeto mais organizada e padronizada.
+
+---
 ![image](https://github.com/user-attachments/assets/dc786893-5915-44ff-aedb-bab7e9939624)
+---
 
-<br>
-<br>
+### :clipboard: Detalhes da Instância
 
-3. Em "Detalhes da Instância" realizamos o devido preenchimento como demonstrado na cada coluna abaixo: 
-<br>
-Nome: ( DF-DIO-Daniell ) "Noma da Instância que está sendo criada"
-<br>
-Região: (EAST US) " Região de provisionamento da instância no Azure. _A escolha da região é um fator crítico, pois impacta diretamente a disponibilidade dos recursos e os serviços oferecidos localmente pela Microsoft_ ". 
-<br>
-Versão: ( V2 ) "Versão do Datafectory"
-<br>
-<br>
+- **Nome:** Nome da instância criada → `DF-DIO-Daniell`
+- **Região:** `EAST US`  
+  _A escolha da região impacta diretamente a disponibilidade e os serviços locais._
+- **Versão:** `V2` do Azure Data Factory
 
+---
 ![image](https://github.com/user-attachments/assets/29451232-9c06-479e-a00e-9550daf543a0)
+---
 
-<br>
-<br>
+### :dna: Integração com Git
 
-4. Modo de Configuração Git com configuração de Integração com o repositório GitHub e o Azure. Em meu caso não optei por configurar mais tarde caso tenha alguma necessidade. Com base nas prioridades do projeto o utilizador pode realizar a integração com o repositório logo nesta parte preenchendo devidamente os campos
+Nesta etapa, é possível conectar um repositório GitHub ou Azure DevOps.  
+> Optei por não configurar neste momento.
 
-<br>
-
+---
 ![image](https://github.com/user-attachments/assets/9cb321c5-33c4-459d-ae12-299e15e44b2b)
+---
 
-<br>
-<br>
-<br>
+### :globe_with_meridians: Configurações de Rede
 
-5. Em configurações de Rede podemos selecionar qual opção de segurança devemos seguir, Público ou Privado. Na linha de rede privada A comunicação entre o cliente e o serviço (como um banco de dados) ocorre inteiramente dentro da rede da Microsoft, sem passar pela internet pública, o que aumenta a segurança e reduz a latência. Para este projeto vou selecionar Público.
+Optei por configurar como **Público**.  
+-> Em redes privadas, a comunicação permanece na rede da Microsoft, aumentando segurança e reduzindo latência.
 
-<br> 
-
+---
 ![image](https://github.com/user-attachments/assets/73b160b0-1cb3-4b4c-9130-a54c94014fdf)
+---
 
-<br>
-<br>
-<br>
+### :closed_lock_with_key: Criptografia
 
-5. A criptografia no Azure Data Factory adota uma abordagem em camadas para proteger dados em trânsito e em repouso, utilizando criptografia forte e integração com o Azure Key Vault para gerenciamento de chaves. Nesta primeira etapa não vou optar por criptografia, sendo assim a opção segue desmarcada. 
+O Azure Data Factory oferece criptografia em trânsito e em repouso, com integração ao **Azure Key Vault**.  
+> Neste projeto, a criptografia foi deixada desabilitada.
 
-<br>
-
+---
 ![image](https://github.com/user-attachments/assets/44bbcc4e-5602-4868-8caa-e5b4c0c7e39a)
+---
 
-<br>
-<br>
-<br>
+### :label: Marcas (Tags)
 
+As tags permitem classificar recursos e consolidar faturamento.  
+-> Recurso importante para organização em ambientes corporativos.
 
-6. Marcas são pares de nome/valor que permitem classificar recursos e exibir faturamento consolidado aplicando a mesma marca a vários recursos e grupos de recursos. 
-
-<br> 
-
+---
 ![image](https://github.com/user-attachments/assets/d8b4b30f-9aa3-4ee6-99e8-21a99e29abf1)
+---
 
-<br>
-<br>
-<br> 
+### Finalização
 
-7. Por final, após ler a descrição completa das customizações realizadas no projeto e valida-las para evitar problemas, seguimos com a opção Criar.
+Após validar todas as configurações e personalizações, o projeto foi criado com sucesso clicando na opção **"Criar"**.
 
-<br> 
-
+---
 ![image](https://github.com/user-attachments/assets/96f62ce0-52db-4a4d-9c85-f04e4e6cf629)
+---
 
-<br> 
+## :satellite: Extração de Dados via HTTP com Pipelines no Azure Databricks
 
-#
-#
-##
- 
-# Extração de Dados via HTTP no Azure Databricks com Pipelines <br>
+### Objetivo
 
-## Introdução <br>
+Criar um pipeline de dados no **Azure Databricks** que:
 
-Neste simples exercício, desenvolvo um pipeline de dados no Azure Databricks com foco na automação do processo de extração de dados via protocolo HTTP, a partir de uma API (Origem). O pipeline é responsável por realizar a requisição, tratamento e transformação dos dados brutos recebidos, convertendo-os em um schema estruturado. Após a transformação, os dados são gravados no Azure Blob Storage (Destino). O pipeline também contempla boas práticas como controle de erros, logs e versionamento dos dados no armazenamento.
+- Realiza requisições HTTP a uma API
+- Trata e transforma os dados 
+- Converte os dados em um schema estruturado 
+- Armazena os dados transformados no **Azure Blob Storage** 
 
+---
 
+### :movie_camera: Vídeo Demonstrativo
 
-https://github.com/user-attachments/assets/a23e58db-396f-482b-9c9c-bc848dbe9fa6
-
-
-<br>
-<br> 
-
-## _Insides_
-
-<br>
-
-![image](https://github.com/user-attachments/assets/b26debe6-7ae9-4926-8527-933a786f8160)
-
-<br> 
--> O gráfico de métricas para o Azure Blob Storage, especificamente para a métrica "Transactions", mostra o número de transações realizadas ao longo do tempo. Aqui estão algumas observações:
-<br> 
-<br>
-
-Período de Baixa Atividade: No início do período monitorado, há um longo intervalo onde o número de transações é zero, indicando que não houve atividade significativa no Blob Storage durante esse tempo.
-<br>
-<br>
-Aumento de Atividade: Em um ponto específico, há um aumento repentino no número de transações, atingindo picos de até 44 transações em um intervalo de tempo. Isso pode indicar um aumento na carga de trabalho ou um evento específico que gerou mais acessos ao armazenamento.
-<br> 
-<br>
-Flutuações: Após o pico, o número de transações flutua, mostrando variações na atividade. Isso pode ser devido a diferentes padrões de uso ou operações realizadas no armazenamento.
-<br> 
-<br>
-Essas informações podem ajudar a identificar padrões de uso e otimizar o desempenho e os custos associados ao Azure Blob Storage. Se precisar de mais detalhes ou de uma análise mais aprofundada, podemos explorar outras métricas ou períodos de tempo.
+https://github.com/user-attachments/assets/1da8cd03-8505-4fa7-b97a-1f73bc03ded3
 
 
 
+---
 
+## :bar_chart: Métricas de Monitoramento – Azure Blob Storage
 
+### Métrica analisada: `Transactions`
 
+- **Período de Baixa Atividade:**  
+  Período inicial sem transações indica inatividade.
 
+- **Pico de Atividade:**  
+  Transações aumentam repentinamente, alcançando até **44 transações**. Pode indicar eventos de carga.
 
+- **Flutuações:**  
+  Atividade variável após o pico, indicando padrões distintos de uso.
 
+> :pushpin: Esses dados ajudam a otimizar custos e desempenho do Azure Blob.
 
-
-
-
-
-
-
-
-
-
+---
