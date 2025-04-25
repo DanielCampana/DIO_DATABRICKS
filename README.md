@@ -98,7 +98,53 @@ Versão: ( V2 ) "Versão do Datafectory"
 
 #
 #
-#
+##
+ 
+# Extração de Dados via HTTP no Azure Databricks com Pipelines <br>
+
+## Introdução <br>
+
+Neste simples exercício, desenvolvo um pipeline de dados no Azure Databricks com foco na automação do processo de extração de dados via protocolo HTTP, a partir de uma API (Origem). O pipeline é responsável por realizar a requisição, tratamento e transformação dos dados brutos recebidos, convertendo-os em um schema estruturado. Após a transformação, os dados são gravados no Azure Blob Storage (Destino). O pipeline também contempla boas práticas como controle de erros, logs e versionamento dos dados no armazenamento.
+
+
+
+https://github.com/user-attachments/assets/a23e58db-396f-482b-9c9c-bc848dbe9fa6
+
+
+<br>
+<br> 
+
+## _Insides do Copilot_
+
+<br>
+
+![image](https://github.com/user-attachments/assets/b26debe6-7ae9-4926-8527-933a786f8160)
+
+<br> 
+-> O gráfico de métricas para o Azure Blob Storage, especificamente para a métrica "Transactions", mostra o número de transações realizadas ao longo do tempo. Aqui estão algumas observações:
+<br> 
+<br>
+
+Período de Baixa Atividade: No início do período monitorado, há um longo intervalo onde o número de transações é zero, indicando que não houve atividade significativa no Blob Storage durante esse tempo.
+<br>
+<br>
+Aumento de Atividade: Em um ponto específico, há um aumento repentino no número de transações, atingindo picos de até 44 transações em um intervalo de tempo. Isso pode indicar um aumento na carga de trabalho ou um evento específico que gerou mais acessos ao armazenamento.
+<br> 
+<br>
+Flutuações: Após o pico, o número de transações flutua, mostrando variações na atividade. Isso pode ser devido a diferentes padrões de uso ou operações realizadas no armazenamento.
+<br> 
+<br>
+Essas informações podem ajudar a identificar padrões de uso e otimizar o desempenho e os custos associados ao Azure Blob Storage. Se precisar de mais detalhes ou de uma análise mais aprofundada, podemos explorar outras métricas ou períodos de tempo.
+
+
+
+
+
+
+
+
+
+
 
 
 
